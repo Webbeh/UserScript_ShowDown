@@ -5,6 +5,8 @@
 // @description  PSChina Server Translation
 // @description  Pokémon Showdown - Traduction française
 // @author       Weby
+// @license	 MIT
+// @copyright	 2018, Weby (geeq.ch)
 // @match        http://*.psim.us/*
 // @match	 https://*.psim.us/*
 // @match        http://replay.pokemonshowdown.com/*
@@ -15,6 +17,7 @@
 // @match        https://pokemonshowdown.com/*
 // @grant        none
 // @require      https://code.jQuery.com/jquery-2.1.4.min.js
+// @updateURL	 https://openuserjs.org/meta/Weby/Showdown_FR.meta.js
 // @run-at       document-end
 // ==/UserScript==
 
