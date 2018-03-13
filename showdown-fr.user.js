@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Showdown FR
 // @namespace    http://tampermonkey.net/
-// @version      1.1
+// @version      1.2
 // @description  PSChina Server Translation
 // @description  Pokémon Showdown - Traduction française
 // @author       Weby
@@ -18,8 +18,13 @@
 // @run-at       document-end
 // ==/UserScript==
 
+
+//Ajoutez des traductions comme vous voulez.
+//Une traduction par ligne, format :
+//    "<à traduire>": "<traduction>",
+// Si vous devez mettre un signe " , il faut l'écrire \"
 var translations={
-    "Bulbasaur": "Bulbizarre",
+"Bulbasaur": "Bulbizarre",
 "Ivysaur": "Herbizarre",
 "Venusaur": "Florizarre",
 "Charmander": "Salamèche",
