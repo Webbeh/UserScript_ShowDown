@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Showdown FR
 // @namespace    http://tampermonkey.net/
-// @version      1.4
+// @version      1.4.1
 // @icon	 http://www.plixup.com/pics_core3/15209509486695icon.png
 // @description  Pokémon Showdown - Traduction française
 // @author       Weby
@@ -19,11 +19,14 @@
 // @require      https://code.jQuery.com/jquery-2.1.4.min.js
 // @updateURL	 https://openuserjs.org/meta/Weby/Showdown_FR.meta.js
 // @run-at       document-end
+// @homepageURL	 https://github.com/Webbeh/UserScript_ShowDown
 // ==/UserScript==
 
-
-//Ajoutez des traductions comme vous voulez.
-//Une traduction par ligne, format :
+// Afin de rajouter/modifier des traductions, dirigez-vous sur
+// https://github.com/Webbeh/UserScript_ShowDown
+// Forkez le projet, ajoutez vos traductions et faites un pull request !
+//
+// Une traduction par ligne, format :
 //    "<à traduire>": "<traduction>",
 // Si vous devez mettre un signe " , il faut l'écrire \"
 
