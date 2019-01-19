@@ -2,7 +2,6 @@
 // @name         Showdown FR
 // @namespace    http://tampermonkey.net/
 // @version      1.4.1
-// @icon	 http://www.plixup.com/pics_core3/15209509486695icon.png
 // @description  Pokémon Showdown - Traduction française
 // @author       Weby
 // @license	 MIT
