@@ -1,8 +1,8 @@
 // ==UserScript==
 // @name         Showdown FR
 // @namespace    http://tampermonkey.net/
-// @version      1.4.1
-// @icon	 http://www.plixup.com/pics_core3/15209509486695icon.png
+// @version      1.4.2
+// @icon	 https://raw.githubusercontent.com/Webbeh/UserScript_ShowDown/master/icon2.png
 // @description  Pokémon Showdown - Traduction française
 // @author       Weby
 // @license	 MIT
@@ -2807,30 +2807,31 @@ var translations={
     "Cancel":"Annuler",
     "Disconnected":"Déconnecter",
     "Reconnect":"Reconnecter",
+    
+    "If holder is an Altaria, this item allows it to Mega Evolve in battle.":"Si le porteur est Altaria, cet objet lui permet de Méga-Evoluer en combat.",
+    "If holder is an Abomasnow, this item allows it to Mega Evolve in battle.":"Si le porteur est Blizzaroi, cet objet lui permet de Méga-Evoluer en combat.",
+    "If holder is an Absol, this item allows it to Mega Evolve in battle.":"Si le porteur est Absol, cet objet lui permet de Méga-Evoluer en combat.",
+    "Raises holder's Sp. Atk by 1 stage if hit by a Water-type attack. Single use.":"Augmente l'attaque spéciale du porteur d'un niveau si celui-ci est touché par une attaque de type Eau. Usage unique.",
+    "If holder is a Dialga, its Steel- and Dragon-type attacks have 1.2x power.":"Si le porteur est Dialga, la force ses attaques de type Acier et Dragon augmente de 20%.",
+    "Raises holder's Speed by 1 stage if it gets affected by Intimidate. Single use.":"Augmente la vitesse du porteur d'un niveau, si celui-ci est affecté par Intimidation. Usage unique.",
+    "If holder is an Aerodactyl, this item allows it to Mega Evolve in battle.":"Si le porteur est Ptera, cet objet lui permet de Méga-Evoluer en combat.",
+    "If holder is an Aggron, this item allows it to Mega Evolve in battle.":"Si le porteur est Galeking, cet objet lui permet de Méga-Evoluer en combat.",
+    "Restores 1/2 max HP at 1/4 max HP or less; confuses if -SpD Nature. Single use.":"Redonne au maximum 50% des PV si donné quand les PV sont en dessous de 25%. Rend confus si sa nature est Vitesse. Usage unique.",
+    "Holder is immune to Ground-type attacks. Pops when holder is hit.":"Le porteur est immunisé contre les attaques de type sol. L'effet se termine quand le porteur est touché.",
+    "If holder is an Alakazam, this item allows it to Mega Evolve in battle.":"Si le porteur est Alakazam, cet objet lui permet de Méga-Evoluer en combat.",
+    "If holder is an Alolan Raichu with Thunderbolt, it can use Stoked Sparksurfer.":"Si le porteur est Raichu Alola avec Tonnerre, il peut utiliser Électro-Surf Survolté.",
+    "If holder is an Ampharos, this item allows it to Mega Evolve in battle.":"Si le porteur est Pharamp, cet objet lui permet de Méga-Evoluer en combat.",
+    "Raises holder's Sp. Def by 1 stage when at 1/4 max HP or less. Single use.":"Augmente la défense spéciale d'un niveau quand le porteur est à moins de 25% de PV restants. Usage unique.",
+    "Can be revived into Shieldon.":"Peut être ravivé en Dinoclier.",
+    "Holder is cured if it is frozen. Single use.":"Le porteur est dégelé. Usage unique.",
+    "Holder's Sp. Def is 1.5x, but it can only select damaging moves.":"La défense spéciale du porteur sera à 150% de l'originale, mais il n'est possible de choisir que des attaques infligeant des dommages.",
+    "If holder is an Audino, this item allows it to Mega Evolve in battle.":"Si le porteur est Nanméouïe, cet objet lui permet de Méga-Evoluer en combat.",
+    "Halves damage taken from a supereffective Steel-type attack. Single use.":"Diminue de moitié les dommages infligés par les attaques super efficaces de type Acier.",
+    "If holder is a Banette, this item allows it to Mega Evolve in battle.":"Si le porteur est Branette, cet objet lui permet de Méga-Evoluer en combat.",
+    "A special Poke Ball designed to catch Ultra Beasts.":"Une Poké Ball spéciale destinée à attraper les Ultra-Chimères.",
 };
 
 /*
-    "If holder is an Altaria, this item allows it to Mega Evolve in battle.":"七夕青鸟携带可进行超级进化",
-    "If holder is an Abomasnow, this item allows it to Mega Evolve in battle.":"暴雪王携带可进行超级进化",
-    "If holder is an Absol, this item allows it to Mega Evolve in battle.":"阿勃梭鲁携带可进行超级进化",
-    "Raises holder's Sp. Atk by 1 stage if hit by a Water-type attack. Single use.":"受到水属性招式攻击时特攻提升一级，使用后消失",
-    "If holder is a Dialga, its Steel- and Dragon-type attacks have 1.2x power.":"帝牙卢卡携带后钢属性和龙属性招式威力提升20%",
-    "Raises holder's Speed by 1 stage if it gets affected by Intimidate. Single use.":"受到威吓时速度提升一级，使用后消失",
-    "If holder is an Aerodactyl, this item allows it to Mega Evolve in battle.":"化石翼龙携带可进行超级进化",
-    "If holder is an Aggron, this item allows it to Mega Evolve in battle.":"波士可多拉携带可进行超级进化",
-    "Restores 1/2 max HP at 1/4 max HP or less; confuses if -SpD Nature. Single use.":"HP低于25%时回复最大HP的一半，如果是减特防性格的宝可梦则会陷入混乱，使用后消失",
-    "Holder is immune to Ground-type attacks. Pops when holder is hit.":"免疫地面属性招式攻击，受到伤害则会破裂",
-    "If holder is an Alakazam, this item allows it to Mega Evolve in battle.":"胡地携带可进行超级进化",
-    "If holder is an Alolan Raichu with Thunderbolt, it can use Stoked Sparksurfer.":"雷丘（阿罗拉的样子）携带后可以将十万伏特转化成Z招式：驾雷驭电戏冲浪",
-    "If holder is an Ampharos, this item allows it to Mega Evolve in battle.":"电龙携带可进行超级进化",
-    "Raises holder's Sp. Def by 1 stage when at 1/4 max HP or less. Single use.":"HP低于25%时特防提升一级，使用后消失",
-    "Can be revived into Shieldon.":"可以用来复活盾甲龙",
-    "Holder is cured if it is frozen. Single use.":"解除冰冻状态，使用后消失",
-    "Holder's Sp. Def is 1.5x, but it can only select damaging moves.":"以只能使用攻击招式为代价提升50%的特防",
-    "If holder is an Audino, this item allows it to Mega Evolve in battle.":"差不多娃娃携带可进行超级进化",
-    "Halves damage taken from a supereffective Steel-type attack. Single use.":"受到效果绝佳的钢属性招式攻击时伤害减半，使用后消失",
-    "If holder is a Banette, this item allows it to Mega Evolve in battle.":"诅咒娃娃携带可进行超级进化",
-    "A special Poke Ball designed to catch Ultra Beasts.":"为捕获究极异兽而制作的特殊精灵球",
     "If holder is a Beedrill, this item allows it to Mega Evolve in battle.":"大针蜂携带可进行超级进化",
     "Cannot be eaten by the holder. No effect when eaten with Bug Bite or Pluck.":"用于制作宝可方块或宝芬，被虫咬或啄食时没有效果",
     "Restores 20 HP when at 1/2 max HP or less. Single use.":"HP低于一半时回复20HP，使用后消失",
